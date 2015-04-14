@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="3" hostname="Doug-PC" name="TimestampIntegrationSpec" tests="3" time="0.496" timestamp="2015-04-14T15:47:00">
+  <properties />
+  <testcase classname="TimestampIntegrationSpec" name="Value and PersistentValue are different" time="0.336">
+    <failure message="Condition not satisfied:&#xa;&#xa;!domain.embeddedExample.is(domain.getPersistentValue(&apos;embeddedExample&apos;))&#xa;||      |               |  |      |&#xa;||      |               |  |      EmbeddedExample@3202cf12&#xa;||      |               |  TimestampDomain : 1&#xa;||      |               true&#xa;||      EmbeddedExample@3202cf12&#xa;|TimestampDomain : 1&#xa;false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue(&apos;embeddedExample&apos;))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@3202cf12
+||      |               |  TimestampDomain : 1
+||      |               true
+||      EmbeddedExample@3202cf12
+|TimestampDomain : 1
+false
+
+	at TimestampIntegrationSpec.Value and PersistentValue are different(TimestampIntegrationSpec.groovy:12)
+</failure>
+  </testcase>
+  <testcase classname="TimestampIntegrationSpec" name="IsDirty after update" time="0.008">
+    <failure message="Condition not satisfied:&#xa;&#xa;domain.isDirty()&#xa;|      |&#xa;|      false&#xa;TimestampDomain : 2&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+TimestampDomain : 2
+
+	at TimestampIntegrationSpec.IsDirty after update(TimestampIntegrationSpec.groovy:27)
+</failure>
+  </testcase>
+  <testcase classname="TimestampIntegrationSpec" name="With Criteria" time="0.15">
+    <failure message="Condition not satisfied:&#xa;&#xa;result.isEmpty()&#xa;|      |&#xa;|      false&#xa;[TimestampDomain : 3]&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[TimestampDomain : 3]
+
+	at TimestampIntegrationSpec.With Criteria(TimestampIntegrationSpec.groovy:54)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from Value and PersistentValue are different--
+--Output from IsDirty after update--
+--Output from With Criteria--
+]]></system-out>
+  <system-err><![CDATA[--Output from Value and PersistentValue are different--
+--Output from IsDirty after update--
+--Output from With Criteria--
+]]></system-err>
+</testsuite>

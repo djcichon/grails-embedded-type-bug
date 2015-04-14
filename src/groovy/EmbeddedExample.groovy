@@ -1,0 +1,3 @@
+class EmbeddedExample {
+    Integer intProp
+}

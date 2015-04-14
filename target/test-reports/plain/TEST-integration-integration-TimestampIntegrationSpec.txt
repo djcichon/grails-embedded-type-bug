@@ -1,0 +1,75 @@
+Testsuite: TimestampIntegrationSpec
+Tests run: 3, Failures: 3, Errors: 0, Time elapsed: 0.496 sec
+------------- Standard Output ---------------
+--Output from Value and PersistentValue are different--
+--Output from IsDirty after update--
+--Output from With Criteria--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Value and PersistentValue are different--
+--Output from IsDirty after update--
+--Output from With Criteria--
+------------- ---------------- ---------------
+
+Testcase: Value and PersistentValue are different took 0.315 sec
+	FAILED
+Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@3202cf12
+||      |               |  TimestampDomain : 1
+||      |               true
+||      EmbeddedExample@3202cf12
+|TimestampDomain : 1
+false
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@3202cf12
+||      |               |  TimestampDomain : 1
+||      |               true
+||      EmbeddedExample@3202cf12
+|TimestampDomain : 1
+false
+
+	at TimestampIntegrationSpec.Value and PersistentValue are different(TimestampIntegrationSpec.groovy:12)
+
+Testcase: IsDirty after update took 0.007 sec
+	FAILED
+Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+TimestampDomain : 2
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+TimestampDomain : 2
+
+	at TimestampIntegrationSpec.IsDirty after update(TimestampIntegrationSpec.groovy:27)
+
+Testcase: With Criteria took 0.149 sec
+	FAILED
+Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[TimestampDomain : 3]
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[TimestampDomain : 3]
+
+	at TimestampIntegrationSpec.With Criteria(TimestampIntegrationSpec.groovy:54)
+

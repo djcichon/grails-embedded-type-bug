@@ -1,0 +1,558 @@
+2015-04-14 11:04:09,981 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@61af0a8
+||      |               |  BeforeInsertDomain : 1
+||      |               true
+||      EmbeddedExample@61af0a8
+|BeforeInsertDomain : 1
+false
+
+	at BeforeInsertIntegrationSpec.Value and PersistentValue are different(BeforeInsertIntegrationSpec.groovy:12)
+2015-04-14 11:04:09,991 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@61af0a8
+||      |               |  BeforeInsertDomain : 1
+||      |               true
+||      EmbeddedExample@61af0a8
+|BeforeInsertDomain : 1
+false
+
+	at BeforeInsertIntegrationSpec.Value and PersistentValue are different(BeforeInsertIntegrationSpec.groovy:12)
+2015-04-14 11:04:09,993 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@61af0a8
+||      |               |  BeforeInsertDomain : 1
+||      |               true
+||      EmbeddedExample@61af0a8
+|BeforeInsertDomain : 1
+false
+
+	at BeforeInsertIntegrationSpec.Value and PersistentValue are different(BeforeInsertIntegrationSpec.groovy:12)
+2015-04-14 11:04:09,993 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@61af0a8
+||      |               |  BeforeInsertDomain : 1
+||      |               true
+||      EmbeddedExample@61af0a8
+|BeforeInsertDomain : 1
+false
+
+	at BeforeInsertIntegrationSpec.Value and PersistentValue are different(BeforeInsertIntegrationSpec.groovy:12)
+2015-04-14 11:04:10,004 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@61af0a8
+||      |               |  BeforeInsertDomain : 1
+||      |               true
+||      EmbeddedExample@61af0a8
+|BeforeInsertDomain : 1
+false
+
+	at BeforeInsertIntegrationSpec.Value and PersistentValue are different(BeforeInsertIntegrationSpec.groovy:12)
+2015-04-14 11:04:10,004 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@61af0a8
+||      |               |  BeforeInsertDomain : 1
+||      |               true
+||      EmbeddedExample@61af0a8
+|BeforeInsertDomain : 1
+false
+
+	at BeforeInsertIntegrationSpec.Value and PersistentValue are different(BeforeInsertIntegrationSpec.groovy:12)
+2015-04-14 11:04:10,052 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+BeforeInsertDomain : 2
+
+	at BeforeInsertIntegrationSpec.IsDirty after update(BeforeInsertIntegrationSpec.groovy:27)
+2015-04-14 11:04:10,052 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+BeforeInsertDomain : 2
+
+	at BeforeInsertIntegrationSpec.IsDirty after update(BeforeInsertIntegrationSpec.groovy:27)
+2015-04-14 11:04:10,053 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+BeforeInsertDomain : 2
+
+	at BeforeInsertIntegrationSpec.IsDirty after update(BeforeInsertIntegrationSpec.groovy:27)
+2015-04-14 11:04:10,053 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+BeforeInsertDomain : 2
+
+	at BeforeInsertIntegrationSpec.IsDirty after update(BeforeInsertIntegrationSpec.groovy:27)
+2015-04-14 11:04:10,054 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+BeforeInsertDomain : 2
+
+	at BeforeInsertIntegrationSpec.IsDirty after update(BeforeInsertIntegrationSpec.groovy:27)
+2015-04-14 11:04:10,054 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+BeforeInsertDomain : 2
+
+	at BeforeInsertIntegrationSpec.IsDirty after update(BeforeInsertIntegrationSpec.groovy:27)
+2015-04-14 11:04:10,255 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[BeforeInsertDomain : 3]
+
+	at BeforeInsertIntegrationSpec.With Criteria(BeforeInsertIntegrationSpec.groovy:54)
+2015-04-14 11:04:10,256 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[BeforeInsertDomain : 3]
+
+	at BeforeInsertIntegrationSpec.With Criteria(BeforeInsertIntegrationSpec.groovy:54)
+2015-04-14 11:04:10,256 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[BeforeInsertDomain : 3]
+
+	at BeforeInsertIntegrationSpec.With Criteria(BeforeInsertIntegrationSpec.groovy:54)
+2015-04-14 11:04:10,256 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[BeforeInsertDomain : 3]
+
+	at BeforeInsertIntegrationSpec.With Criteria(BeforeInsertIntegrationSpec.groovy:54)
+2015-04-14 11:04:10,257 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[BeforeInsertDomain : 3]
+
+	at BeforeInsertIntegrationSpec.With Criteria(BeforeInsertIntegrationSpec.groovy:54)
+2015-04-14 11:04:10,257 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[BeforeInsertDomain : 3]
+
+	at BeforeInsertIntegrationSpec.With Criteria(BeforeInsertIntegrationSpec.groovy:54)
+2015-04-14 11:04:10,456 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@20f6cde0
+||      |               |  TimestampDisabledBeforeInsertDomain : 1
+||      |               true
+||      EmbeddedExample@20f6cde0
+|TimestampDisabledBeforeInsertDomain : 1
+false
+
+	at TimestampDisabledBeforeInsertIntegrationSpec.Value and PersistentValue are different(TimestampDisabledBeforeInsertIntegrationSpec.groovy:12)
+2015-04-14 11:04:10,457 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@20f6cde0
+||      |               |  TimestampDisabledBeforeInsertDomain : 1
+||      |               true
+||      EmbeddedExample@20f6cde0
+|TimestampDisabledBeforeInsertDomain : 1
+false
+
+	at TimestampDisabledBeforeInsertIntegrationSpec.Value and PersistentValue are different(TimestampDisabledBeforeInsertIntegrationSpec.groovy:12)
+2015-04-14 11:04:10,457 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@20f6cde0
+||      |               |  TimestampDisabledBeforeInsertDomain : 1
+||      |               true
+||      EmbeddedExample@20f6cde0
+|TimestampDisabledBeforeInsertDomain : 1
+false
+
+	at TimestampDisabledBeforeInsertIntegrationSpec.Value and PersistentValue are different(TimestampDisabledBeforeInsertIntegrationSpec.groovy:12)
+2015-04-14 11:04:10,457 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@20f6cde0
+||      |               |  TimestampDisabledBeforeInsertDomain : 1
+||      |               true
+||      EmbeddedExample@20f6cde0
+|TimestampDisabledBeforeInsertDomain : 1
+false
+
+	at TimestampDisabledBeforeInsertIntegrationSpec.Value and PersistentValue are different(TimestampDisabledBeforeInsertIntegrationSpec.groovy:12)
+2015-04-14 11:04:10,458 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@20f6cde0
+||      |               |  TimestampDisabledBeforeInsertDomain : 1
+||      |               true
+||      EmbeddedExample@20f6cde0
+|TimestampDisabledBeforeInsertDomain : 1
+false
+
+	at TimestampDisabledBeforeInsertIntegrationSpec.Value and PersistentValue are different(TimestampDisabledBeforeInsertIntegrationSpec.groovy:12)
+2015-04-14 11:04:10,458 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@20f6cde0
+||      |               |  TimestampDisabledBeforeInsertDomain : 1
+||      |               true
+||      EmbeddedExample@20f6cde0
+|TimestampDisabledBeforeInsertDomain : 1
+false
+
+	at TimestampDisabledBeforeInsertIntegrationSpec.Value and PersistentValue are different(TimestampDisabledBeforeInsertIntegrationSpec.groovy:12)
+2015-04-14 11:04:10,468 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+TimestampDisabledBeforeInsertDomain : 2
+
+	at TimestampDisabledBeforeInsertIntegrationSpec.IsDirty after update(TimestampDisabledBeforeInsertIntegrationSpec.groovy:27)
+2015-04-14 11:04:10,468 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+TimestampDisabledBeforeInsertDomain : 2
+
+	at TimestampDisabledBeforeInsertIntegrationSpec.IsDirty after update(TimestampDisabledBeforeInsertIntegrationSpec.groovy:27)
+2015-04-14 11:04:10,469 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+TimestampDisabledBeforeInsertDomain : 2
+
+	at TimestampDisabledBeforeInsertIntegrationSpec.IsDirty after update(TimestampDisabledBeforeInsertIntegrationSpec.groovy:27)
+2015-04-14 11:04:10,469 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+TimestampDisabledBeforeInsertDomain : 2
+
+	at TimestampDisabledBeforeInsertIntegrationSpec.IsDirty after update(TimestampDisabledBeforeInsertIntegrationSpec.groovy:27)
+2015-04-14 11:04:10,469 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+TimestampDisabledBeforeInsertDomain : 2
+
+	at TimestampDisabledBeforeInsertIntegrationSpec.IsDirty after update(TimestampDisabledBeforeInsertIntegrationSpec.groovy:27)
+2015-04-14 11:04:10,469 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+TimestampDisabledBeforeInsertDomain : 2
+
+	at TimestampDisabledBeforeInsertIntegrationSpec.IsDirty after update(TimestampDisabledBeforeInsertIntegrationSpec.groovy:27)
+2015-04-14 11:04:10,500 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[TimestampDisabledBeforeInsertDomain : 3]
+
+	at TimestampDisabledBeforeInsertIntegrationSpec.With Criteria(TimestampDisabledBeforeInsertIntegrationSpec.groovy:54)
+2015-04-14 11:04:10,500 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[TimestampDisabledBeforeInsertDomain : 3]
+
+	at TimestampDisabledBeforeInsertIntegrationSpec.With Criteria(TimestampDisabledBeforeInsertIntegrationSpec.groovy:54)
+2015-04-14 11:04:10,500 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[TimestampDisabledBeforeInsertDomain : 3]
+
+	at TimestampDisabledBeforeInsertIntegrationSpec.With Criteria(TimestampDisabledBeforeInsertIntegrationSpec.groovy:54)
+2015-04-14 11:04:10,500 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[TimestampDisabledBeforeInsertDomain : 3]
+
+	at TimestampDisabledBeforeInsertIntegrationSpec.With Criteria(TimestampDisabledBeforeInsertIntegrationSpec.groovy:54)
+2015-04-14 11:04:10,501 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[TimestampDisabledBeforeInsertDomain : 3]
+
+	at TimestampDisabledBeforeInsertIntegrationSpec.With Criteria(TimestampDisabledBeforeInsertIntegrationSpec.groovy:54)
+2015-04-14 11:04:10,501 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[TimestampDisabledBeforeInsertDomain : 3]
+
+	at TimestampDisabledBeforeInsertIntegrationSpec.With Criteria(TimestampDisabledBeforeInsertIntegrationSpec.groovy:54)
+2015-04-14 11:04:10,623 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@6c70ba64
+||      |               |  TimestampDomain : 1
+||      |               true
+||      EmbeddedExample@6c70ba64
+|TimestampDomain : 1
+false
+
+	at TimestampIntegrationSpec.Value and PersistentValue are different(TimestampIntegrationSpec.groovy:12)
+2015-04-14 11:04:10,624 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@6c70ba64
+||      |               |  TimestampDomain : 1
+||      |               true
+||      EmbeddedExample@6c70ba64
+|TimestampDomain : 1
+false
+
+	at TimestampIntegrationSpec.Value and PersistentValue are different(TimestampIntegrationSpec.groovy:12)
+2015-04-14 11:04:10,624 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@6c70ba64
+||      |               |  TimestampDomain : 1
+||      |               true
+||      EmbeddedExample@6c70ba64
+|TimestampDomain : 1
+false
+
+	at TimestampIntegrationSpec.Value and PersistentValue are different(TimestampIntegrationSpec.groovy:12)
+2015-04-14 11:04:10,624 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@6c70ba64
+||      |               |  TimestampDomain : 1
+||      |               true
+||      EmbeddedExample@6c70ba64
+|TimestampDomain : 1
+false
+
+	at TimestampIntegrationSpec.Value and PersistentValue are different(TimestampIntegrationSpec.groovy:12)
+2015-04-14 11:04:10,625 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@6c70ba64
+||      |               |  TimestampDomain : 1
+||      |               true
+||      EmbeddedExample@6c70ba64
+|TimestampDomain : 1
+false
+
+	at TimestampIntegrationSpec.Value and PersistentValue are different(TimestampIntegrationSpec.groovy:12)
+2015-04-14 11:04:10,625 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+!domain.embeddedExample.is(domain.getPersistentValue('embeddedExample'))
+||      |               |  |      |
+||      |               |  |      EmbeddedExample@6c70ba64
+||      |               |  TimestampDomain : 1
+||      |               true
+||      EmbeddedExample@6c70ba64
+|TimestampDomain : 1
+false
+
+	at TimestampIntegrationSpec.Value and PersistentValue are different(TimestampIntegrationSpec.groovy:12)
+2015-04-14 11:04:10,634 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+TimestampDomain : 2
+
+	at TimestampIntegrationSpec.IsDirty after update(TimestampIntegrationSpec.groovy:27)
+2015-04-14 11:04:10,635 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+TimestampDomain : 2
+
+	at TimestampIntegrationSpec.IsDirty after update(TimestampIntegrationSpec.groovy:27)
+2015-04-14 11:04:10,635 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+TimestampDomain : 2
+
+	at TimestampIntegrationSpec.IsDirty after update(TimestampIntegrationSpec.groovy:27)
+2015-04-14 11:04:10,635 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+TimestampDomain : 2
+
+	at TimestampIntegrationSpec.IsDirty after update(TimestampIntegrationSpec.groovy:27)
+2015-04-14 11:04:10,635 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+TimestampDomain : 2
+
+	at TimestampIntegrationSpec.IsDirty after update(TimestampIntegrationSpec.groovy:27)
+2015-04-14 11:04:10,635 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+domain.isDirty()
+|      |
+|      false
+TimestampDomain : 2
+
+	at TimestampIntegrationSpec.IsDirty after update(TimestampIntegrationSpec.groovy:27)
+2015-04-14 11:04:10,664 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[TimestampDomain : 3]
+
+	at TimestampIntegrationSpec.With Criteria(TimestampIntegrationSpec.groovy:54)
+2015-04-14 11:04:10,664 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[TimestampDomain : 3]
+
+	at TimestampIntegrationSpec.With Criteria(TimestampIntegrationSpec.groovy:54)
+2015-04-14 11:04:10,664 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[TimestampDomain : 3]
+
+	at TimestampIntegrationSpec.With Criteria(TimestampIntegrationSpec.groovy:54)
+2015-04-14 11:04:10,664 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[TimestampDomain : 3]
+
+	at TimestampIntegrationSpec.With Criteria(TimestampIntegrationSpec.groovy:54)
+2015-04-14 11:04:10,665 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[TimestampDomain : 3]
+
+	at TimestampIntegrationSpec.With Criteria(TimestampIntegrationSpec.groovy:54)
+2015-04-14 11:04:10,665 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+result.isEmpty()
+|      |
+|      false
+[TimestampDomain : 3]
+
+	at TimestampIntegrationSpec.With Criteria(TimestampIntegrationSpec.groovy:54)
